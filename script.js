@@ -45,7 +45,7 @@ function closeLicnaprimanja() {
 }
 
 function openZakonoradu() {
-  window.location.href = "../finansije/docs/zakon-o-radu.html";
+  window.location.href = "../finansije/dokumenti/zakon-o-radu.html";
 }
 
 function closeZakonoradu() {
