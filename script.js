@@ -45,7 +45,7 @@ function closeLicnaprimanja() {
 }
 
 function openZakonoradu() {
-  window.location.href = "../Konta/docs/zakon-o-radu.htm";
+  window.location.href = "../docs/zakon-o-radu.htm";
 }
 
 function closeZakonoradu() {
