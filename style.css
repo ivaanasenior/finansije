@@ -4,7 +4,7 @@ body {
 }
 
 table {
-  text-size: 1em;
+  font-size: 1em;
   width: 100%;
   border-collapse: collapse;
   background-color: #073b4c;
