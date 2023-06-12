@@ -4,11 +4,11 @@ body {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 table {
-  font-size: 1.5em;
+  font-size: 1em;
   width: 100%;
   border-collapse: collapse;
   background-color: #073b4c;
@@ -18,7 +18,7 @@ table {
 
 table th,
 table td {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px;
   text-align: left;
   color: white;
@@ -57,13 +57,13 @@ table th {
 
 
 .row {
-    font-size: 1.5em;
+    font-size: 1em;
     display: block;
     margin-bottom: 10px;
   }
   
   .cell {
-    font-size: 1.5em;
+    font-size: 1em;
     display: block;
     width: 100%;
     box-sizing: border-box;
