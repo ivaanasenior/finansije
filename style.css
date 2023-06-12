@@ -8,7 +8,7 @@ p {
 }
 
 table {
-  font-size: 2em;
+  font-size: 1.5em;
   width: 100%;
   border-collapse: collapse;
   background-color: #073b4c;
@@ -18,7 +18,7 @@ table {
 
 table th,
 table td {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 10px;
   text-align: left;
   color: white;
@@ -57,13 +57,13 @@ table th {
 
 
 .row {
-    font-size: 2em;
+    font-size: 1.5em;
     display: block;
     margin-bottom: 10px;
   }
   
   .cell {
-    font-size: 2em;
+    font-size: 1.5em;
     display: block;
     width: 100%;
     box-sizing: border-box;
