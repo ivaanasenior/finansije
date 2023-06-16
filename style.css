@@ -28,7 +28,6 @@ table {
 
 table th,
 table td {
-  font-size: 1.5em;
   padding: 10px;
   text-align: left;
   color: white;
@@ -67,13 +66,11 @@ table th {
 
 
 .row {
-    font-size: 1.5em;
     display: block;
     margin-bottom: 10px;
   }
   
   .cell {
-    font-size: 1.5em;
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -82,7 +79,6 @@ table th {
 
 .mala-cell {
 width: 10%;
-font-size: 2em;
 }
 
 
@@ -98,7 +94,6 @@ width: 15%;
   width: 100%;
   height: 100%;
   padding: 1px 1px;
-  font-size: 2em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
