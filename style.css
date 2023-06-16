@@ -5,7 +5,17 @@ body {
 
 p {
   color: white;
-  font-size: 1em;
+  font-size: 1.2em;
+font-family: 'EtarRNIDS';
+}
+
+/* Webfont: EtarRNIDS-Regular */@font-face {
+    font-family: 'EtarRNIDS';
+    src: url('EtarRNIDS-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('EtarRNIDS-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 table {
