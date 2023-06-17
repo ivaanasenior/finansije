@@ -36,8 +36,9 @@ table td {
 table td a {
   width: 100%;
   display: block;
-  font-size: 5em;
+  font-size: 1em;
   text-decoration: none;
+  color: white;
 }
 
 table th {
