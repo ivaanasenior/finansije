@@ -2,12 +2,10 @@ var detailsRow = null;
 
   
   function showCalculatorDetails(row) {
-  clearDetailsRow();
-  var table = document.getElementById("myTable");
-  
+  clearDetailsRow();  
   // Check if the details row already exists
   var existingRow = document.querySelector(".calculator-details");
-  if (4) {
+  if (existingRow) {
     return; // Exit the function if the row already exists
   }
 
