@@ -18,7 +18,6 @@ p {
 }
 
 table {
-  font-size: 4em;
   width: 100%;
   border-collapse: collapse;
   background-color: #073b4c;
@@ -31,6 +30,7 @@ table td {
   text-align: left;
   color: white;
   border: 1px solid #fff;
+  font-size: 4em;
 }
 
 table td a {
@@ -38,7 +38,6 @@ table td a {
   text-decoration: none;
   color: yellow;
   font-size: 4em;
-  line-height: 4em;
 }
 
 table th {
