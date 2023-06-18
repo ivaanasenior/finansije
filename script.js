@@ -16,25 +16,25 @@ var detailsRow = null;
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун јубиларне награде";
+  newCell.innerHTML = "Калкулатор обрачуна јубиларне накнаде";
 
   newRow = table.insertRow(row + 2);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун регреса";
+  newCell.innerHTML = "Калкулатор обрачуна регреса";
 
   newRow = table.insertRow(row + 3);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун топлог оброка";
+  newCell.innerHTML = "Калкулатор обрачуна топлог оброка";
   
   newRow = table.insertRow(row + 4);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун плате";
+  newCell.innerHTML = "Калкулатор обрачуна плате";
 }
 
 
