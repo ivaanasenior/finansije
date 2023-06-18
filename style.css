@@ -17,7 +17,6 @@ a {
 
 a:-webkit-any-link {
     cursor: pointer;
-    font-size: 2rem;
 }
 
 table {
