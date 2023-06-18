@@ -15,6 +15,13 @@ a {
   font-size: 4rem;
 }
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
