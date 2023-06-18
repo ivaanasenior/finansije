@@ -22,9 +22,14 @@ function showCalculatorDetails(row) {
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
   newCell.innerHTML = "Obračun plate" + row;
+  detailsRow = newRow;
+  
+  var table = document.getElementById("myTable");
+  var newRow = table.insertRow(row + 1);
+  newRow.className = "calculator-details";
+  var newCell = newRow.insertCell(0);
+  newCell.colSpan = "4";
   newCell.innerHTML = "Obračun toplog obroka" + row;
-  newCell.innerHTML = "Obračun regresa" + row;
-
   detailsRow = newRow;
 }
 
