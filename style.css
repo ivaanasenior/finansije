@@ -40,8 +40,8 @@ table th {
  background-color: #ed553b;
 }
 
-.table-row:nth-child(even) {
-  background-color: lightblue;
+.dokumenti {
+  font-size: 1.8rem;
 }
 
 
