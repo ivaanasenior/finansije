@@ -27,17 +27,18 @@ table {
 
 table th,
 table td {
-  padding: 10px;
+  padding: 17px;
   text-align: left;
   color: white;
   border: 1px solid #fff;
 }
 
 table td a {
-  
   display: block;
   text-decoration: none;
   color: yellow;
+  font-size: 4em;
+  line-height: 4em;
 }
 
 table th {
