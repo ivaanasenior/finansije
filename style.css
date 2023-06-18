@@ -8,6 +8,13 @@ p {
   font-size: 1.7em;
 }
 
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+}
+
 /* Webfont: EtarRNIDS-Regular */@font-face {
     font-family: 'EtarRNIDS';
     src: url('EtarRNIDS-Regular.woff2') format('woff2'), /* Modern Browsers */
@@ -30,14 +37,6 @@ table td {
   text-align: left;
   color: white;
   border: 1px solid #fff;
-  font-size: 1.7em;
-}
-
-table td a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-size: 1.7em;
 }
 
 table th {
