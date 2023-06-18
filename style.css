@@ -18,6 +18,7 @@ p {
 }
 
 table {
+  font-size: 4em;
   width: 100%;
   border-collapse: collapse;
   background-color: #073b4c;
@@ -26,7 +27,6 @@ table {
 
 table th,
 table td {
-  font-size: 4em;
   padding: 10px;
   text-align: left;
   color: white;
@@ -36,7 +36,6 @@ table td {
 table td a {
   
   display: block;
-  font-size: 3em;
   text-decoration: none;
   color: yellow;
 }
@@ -49,8 +48,7 @@ table th {
   background-color: lightblue;
 }
 
-.dokumenti {
-font-size: 0.7em;}
+
 .calculator-details {
   width: 100%;
   background-color: #118ab2;
