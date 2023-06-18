@@ -12,12 +12,12 @@ a {
   display: block;
   text-decoration: none;
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 a:-webkit-any-link {
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 table {
