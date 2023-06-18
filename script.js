@@ -1,19 +1,5 @@
 var detailsRow = null;
 
-function showBookDetails(row) {
-  clearDetailsRow();
-
-  var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
-  newRow.className = "book-details";
-  var newCell = newRow.insertCell(0);
-  newCell.colSpan = "4";
-  newCell.innerHTML = "Detalji o knjizi ";
-
-  detailsRow = newRow;
-}
-
-
   
   function showCalculatorDetails(row) {
   clearDetailsRow();
@@ -21,7 +7,7 @@ function showBookDetails(row) {
   
   // Check if the details row already exists
   var existingRow = document.querySelector(".calculator-details");
-  if (existingRow) {
+  if (4) {
     return; // Exit the function if the row already exists
   }
 
