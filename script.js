@@ -10,32 +10,45 @@ var detailsRow = null;
   }
 
   var table = document.getElementById("myTable");
-  var newRow, newCell;
+  var newRow, newCell, newLink;
 
   newRow = table.insertRow(row + 1);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Калкулатор обрачуна јубиларне накнаде";
+  newLink = document.createElement("a");
+  newLink.href = "kalkulator-jubilarne-nagrade.html"; // Replace with the actual URL of the page you want to open
+  newLink.textContent = "Обрачун јубиларне награде";
+  newCell.appendChild(newLink);
 
   newRow = table.insertRow(row + 2);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Калкулатор обрачуна регреса";
+  newLink = document.createElement("a");
+  newLink.href = "kalkulator-regresa.html"; // Replace with the actual URL of the page you want to open
+  newLink.textContent = "Обрачун регреса";
+  newCell.appendChild(newLink);
 
   newRow = table.insertRow(row + 3);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Калкулатор обрачуна топлог оброка";
+  newLink = document.createElement("a");
+  newLink.href = "kalkulator-toplog-obroka.html"; // Replace with the actual URL of the page you want to open
+  newLink.textContent = "Обрачун топлог оброка";
+  newCell.appendChild(newLink);
   
   newRow = table.insertRow(row + 4);
   newRow.className = "calculator-details";
   newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Калкулатор обрачуна плате";
+  newLink = document.createElement("a");
+  newLink.href = "kalkulator-plate.html"; // Replace with the actual URL of the page you want to open
+  newLink.textContent = "Обрачун плате";
+  newCell.appendChild(newLink);
 }
+
 
 
 function clearDetailsRow() {
