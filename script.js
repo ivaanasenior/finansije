@@ -21,7 +21,7 @@ function showCalculatorDetails(row) {
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Obračun plate" + row;
+  newCell.innerHTML = "Обрачун плате" + row;
   detailsRow = newRow;
   
   var table = document.getElementById("myTable");
@@ -29,7 +29,23 @@ function showCalculatorDetails(row) {
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Obračun toplog obroka" + row;
+  newCell.innerHTML = "Обрачун топлог оброка" + row;
+  detailsRow = newRow;
+
+  var table = document.getElementById("myTable");
+  var newRow = table.insertRow(row + 1);
+  newRow.className = "calculator-details";
+  var newCell = newRow.insertCell(0);
+  newCell.colSpan = "4";
+  newCell.innerHTML = "Обрачун регреса" + row;
+  detailsRow = newRow;
+
+  var table = document.getElementById("myTable");
+  var newRow = table.insertRow(row + 1);
+  newRow.className = "calculator-details";
+  var newCell = newRow.insertCell(0);
+  newCell.colSpan = "4";
+  newCell.innerHTML = "Обрачун јубиларне награде" + row;
   detailsRow = newRow;
 }
 
