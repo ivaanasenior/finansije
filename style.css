@@ -34,9 +34,9 @@ table td {
 }
 
 table td a {
-  width: 100%;
+  
   display: block;
-  font-size: 3.6em;
+  font-size: 3.7em;
   text-decoration: none;
   color: yellow;
 }
