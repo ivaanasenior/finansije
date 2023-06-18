@@ -5,7 +5,7 @@ body {
 
 p {
   color: white;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 /* Webfont: EtarRNIDS-Regular */@font-face {
@@ -30,14 +30,14 @@ table td {
   text-align: left;
   color: white;
   border: 1px solid #fff;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 table td a {
   display: block;
   text-decoration: none;
   color: yellow;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 table th {
