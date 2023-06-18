@@ -21,7 +21,9 @@ function showCalculatorDetails(row) {
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Detalji o kalkulatoru " + row;
+  newCell.innerHTML = "Obračun plate" + row;
+  newCell.innerHTML = "Obračun toplog obroka" + row;
+  newCell.innerHTML = "Obračun regresa" + row;
 
   detailsRow = newRow;
 }
