@@ -13,12 +13,18 @@ function showBookDetails(row) {
   detailsRow = newRow;
 }
 
-function showCalculatorDetails(row) {
-  // Refresh the page
-  location.reload();
+
   
+  function showCalculatorDetails(row) {
   clearDetailsRow();
+  var table = document.getElementById("myTable");
   
+  // Check if the details row already exists
+  var existingRow = document.querySelector(".calculator-details");
+  if (existingRow) {
+    return; // Exit the function if the row already exists
+  }
+
   var table = document.getElementById("myTable");
   var newRow = table.insertRow(row + 1);
   newRow.className = "calculator-details";
@@ -50,11 +56,6 @@ function showCalculatorDetails(row) {
   newCell.colSpan = "4";
   newCell.innerHTML = "Обрачун плате";
   detailsRow = newRow;
-  
-  
-
-  
-
   
 }
 
