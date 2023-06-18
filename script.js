@@ -14,9 +14,10 @@ function showBookDetails(row) {
 }
 
 function showCalculatorDetails(row) {
-  clearDetailsRow();
   // Refresh the page
-location.reload();
+  location.reload();
+  
+  clearDetailsRow();
   
   var table = document.getElementById("myTable");
   var newRow = table.insertRow(row + 1);
