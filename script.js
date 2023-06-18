@@ -15,21 +15,13 @@ function showBookDetails(row) {
 
 function showCalculatorDetails(row) {
   clearDetailsRow();
-
-  var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
-  newRow.className = "calculator-details";
-  var newCell = newRow.insertCell(0);
-  newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун плате";
-  detailsRow = newRow;
   
-  var table = document.getElementById("myTable");
+   var table = document.getElementById("myTable");
   var newRow = table.insertRow(row + 1);
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун топлог оброка";
+  newCell.innerHTML = "Обрачун јубиларне награде";
   detailsRow = newRow;
 
   var table = document.getElementById("myTable");
@@ -45,8 +37,22 @@ function showCalculatorDetails(row) {
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
-  newCell.innerHTML = "Обрачун јубиларне награде";
+  newCell.innerHTML = "Обрачун топлог оброка";
   detailsRow = newRow;
+  
+  var table = document.getElementById("myTable");
+  var newRow = table.insertRow(row + 1);
+  newRow.className = "calculator-details";
+  var newCell = newRow.insertCell(0);
+  newCell.colSpan = "4";
+  newCell.innerHTML = "Обрачун плате";
+  detailsRow = newRow;
+  
+  
+
+  
+
+  
 }
 
 function clearDetailsRow() {
