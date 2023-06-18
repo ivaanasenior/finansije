@@ -1,18 +1,18 @@
 body {
   background-color: #000b0e;
-  margin: 3%;
+  margin: 4%;
 }
 
 p {
   color: white;
-  font-size: 32px;
+  font-size: 1.7em;
 }
 
 a {
   display: block;
   text-decoration: none;
   color: white;
-  font-size: 32px;
+  font-size: 1.7em;
 }
 
 /* Webfont: EtarRNIDS-Regular */@font-face {
