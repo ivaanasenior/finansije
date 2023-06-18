@@ -10,38 +10,33 @@ var detailsRow = null;
   }
 
   var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
+  var newRow, newCell;
+
+  newRow = table.insertRow(row + 1);
   newRow.className = "calculator-details";
-  var newCell = newRow.insertCell(0);
+  newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
   newCell.innerHTML = "Обрачун јубиларне награде";
-  detailsRow = newRow;
 
-  var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
+  newRow = table.insertRow(row + 2);
   newRow.className = "calculator-details";
-  var newCell = newRow.insertCell(0);
+  newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
   newCell.innerHTML = "Обрачун регреса";
-  detailsRow = newRow;
 
-  var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
+  newRow = table.insertRow(row + 3);
   newRow.className = "calculator-details";
-  var newCell = newRow.insertCell(0);
+  newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
   newCell.innerHTML = "Обрачун топлог оброка";
-  detailsRow = newRow;
   
-  var table = document.getElementById("myTable");
-  var newRow = table.insertRow(row + 1);
+  newRow = table.insertRow(row + 4);
   newRow.className = "calculator-details";
-  var newCell = newRow.insertCell(0);
+  newCell = newRow.insertCell(0);
   newCell.colSpan = "4";
   newCell.innerHTML = "Обрачун плате";
-  detailsRow = newRow;
-  
 }
+
 
 function clearDetailsRow() {
   if (detailsRow !== null) {
