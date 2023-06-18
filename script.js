@@ -15,8 +15,10 @@ function showBookDetails(row) {
 
 function showCalculatorDetails(row) {
   clearDetailsRow();
+  // Refresh the page
+location.reload();
   
-   var table = document.getElementById("myTable");
+  var table = document.getElementById("myTable");
   var newRow = table.insertRow(row + 1);
   newRow.className = "calculator-details";
   var newCell = newRow.insertCell(0);
